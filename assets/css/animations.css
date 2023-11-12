@@ -1,0 +1,35 @@
+.contagem-skin {
+    animation-name: contagem-animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes contagem-animation {
+    0% { color: white;}
+    20% { color: red;}
+    40% { color:  white;}
+    60% { color: red;}
+    80% { color:  white;}
+    100% { color: red;}
+}
+
+
+
+
+.navegador li:hover {
+    border: 1px solid white;
+    background: rgba(242, 245, 245, 0.267);
+    cursor: pointer;
+}
+
+
+
+.link:link {
+    color: rgb(138, 27, 190);
+}
+
+.link:visited {
+    color: rgb(0, 26, 255);
+}
+

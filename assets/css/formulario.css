@@ -1,0 +1,77 @@
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(17, 17, 17);
+    height: 600px;
+    
+}
+
+.contato {
+   
+    
+    background: rgb(32, 34, 34);
+    box-shadow: 0px 0px 8px 5px rgba(241, 236, 236, 0.4);
+    padding: 20px;
+    height: 500px;
+    width: 800px;
+}
+
+
+.contato-header {
+   
+    color: white;
+    padding: 20px;
+    
+}
+
+.caixa-input {
+    position: relative;
+    margin-top: 50px;
+    padding: 10px;
+    
+   
+    background: rgb(32, 34, 34);
+    color: white;
+}
+
+#emailUsuario, #nomeUsuario {
+width:300px;
+border: 1px solid black;
+}
+
+.position-button {
+    position: absolute;
+    right: 0;
+    bottom:0;
+    margin: 20px;
+    
+}
+
+.form-sub {
+    margin-top: 15px;
+}
+
+
+
+@media screen and (max-width: 768px) { 
+    .position-button {
+        
+    margin: 0;
+    }
+    
+    .contato {background:rgb(32, 34, 34);}
+
+    .contato-header {border: none}
+
+    .caixa-input {background: none; border:none}
+       .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         
+       }
+
+}
